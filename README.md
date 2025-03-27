@@ -22,7 +22,7 @@ The traffic light controller manages signals for a highway and a farm road. The 
   - `S2`, `S5`: Highway/Farm yellow (3 seconds).
   - `S4`: Farm green (3 seconds), extends if sensor remains active.
 - **Clock**: 50 MHz (1 clock cycle = 20 ns).
-- **Input Handling**: Synchronized reset and sensor input to prevent metastability.
+- **Input Handling**: Synchronized reset and sensor input to prevent instability.
 
 ## Requirements
 - **Hardware**: Zybo Z7-10 FPGA board.
